@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div className="app">
       <form onSubmit={handleSubmit}>
+      <h2 className='from-title'>Count form</h2>
         <div className="form-group">
           <label htmlFor="title">Title:</label>
           <input 
